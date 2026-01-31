@@ -1,6 +1,6 @@
 # 🎸 Arduino Air Guitar (Spatial Audio)
 
-A virtual instrument that uses an MPU6050 accelerometer and Python to simulate "invisible strings" floating in the air. 
+A virtual instrument that uses an GY521 accelerometer and Python to simulate "invisible strings" floating in the air. 
 
 ## How it Works
 1. **Arduino:** Reads the Roll (wrist angle) and Acceleration (strum force) from the MPU6050.
@@ -9,11 +9,11 @@ A virtual instrument that uses an MPU6050 accelerometer and Python to simulate "
 
 ## Hardware
 * Arduino Uno
-* MPU6050 Accelerometer
+* GY521 Accelerometer
 * 4 Jumper Wires
 
 ## Wiring
-| MPU6050 | Arduino |
+| GY521 | Arduino |
 |:---:|:---:|
 | VCC | 5V |
 | GND | GND |
